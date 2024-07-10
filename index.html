@@ -304,7 +304,7 @@
         const cornerRadius = 228;
 
         ctx.font = `${canvas.width * 0.045}px Digital-7`;
-        /*
+        
         drops.forEach((drop) => {
           for (let i = 0; i < drop.length; i++) {
             const char =
@@ -313,7 +313,7 @@
             ctx.fillStyle = `rgba(0, 255, 0, ${alpha})`;
             ctx.fillText(char, drop.x, drop.y - i * 50);
           }
-        });*/
+        });
         ctx.save();
         ctx.translate(button.x, button.y);
         ctx.scale(buttonScale, buttonScale);
